@@ -18,6 +18,7 @@ jobs:
           name: check stuff
           command: |
             lscpu
+            bash compile.sh 
             
 
 
