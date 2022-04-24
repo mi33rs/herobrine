@@ -1,4 +1,4 @@
-FROM heroku/heroku:20
+FROM movecrew/one4ubot:alpine-latest
 
 RUN mkdir /compile && chmod 777 /compile
 WORKDIR /compile
